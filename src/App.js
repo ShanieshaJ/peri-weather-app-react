@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
+import React from "react";
+import ReactDOM from "react-dom";
 import "./App.css";
 import WeatherForm from "./WeatherForm";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <WeatherForm />
@@ -10,4 +11,5 @@ function App() {
   );
 }
 
-export default App;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
