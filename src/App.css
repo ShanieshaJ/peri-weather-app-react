@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("/Images/Galaxy.jpg");
+  background-image: url(images/Galaxy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
