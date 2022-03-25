@@ -4,10 +4,10 @@ import "./CurrentData.css";
 export default function CurrentData() {
   let cityInfo = {
     currentName: "Montreal",
-    currentDay: "Mon",
+    currentDay: "Friday",
     currentDate: 25,
     currentMonth: "March",
-    currentTime: "12:46 AM",
+    currentTime: "11:30 AM",
   };
 
   return (
