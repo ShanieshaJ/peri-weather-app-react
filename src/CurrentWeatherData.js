@@ -3,6 +3,12 @@ import React from "react";
 import "./CurrentWeatherData.css";
 
 export default function CurrentWeatherData() {
+  let currentTemperatureInfo = {
+    currentTemperature: 3,
+    currentDescription: "Cloudy",
+    currentHumidity: 50,
+    currentWindSpeed: 5,
+  };
   return (
     <div className="CurrentWeatherData">
       <div className="row current-weather-container">
