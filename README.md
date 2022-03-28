@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install Node.js
+
+You can install [Node.js](https://nodejs.org/en/) by clicking on the latest LTS version.
+- Open Command Prompt Terminal (**If using Windows**)
+- Type `npm i -g create-react-app` and press enter
+
+## Create React Application
+- Create an empty folder (See naming directory)
+- Open empty with VS Code
+- Open Terminal (Make sure it is the current directory)
+- Run `npx create-react-app .`
+- Type `npm start`
+- To stop the server, go to terminal (Command Prompt), select node and type `ctrl/cmd + c`
+- To make sure that the Node.js server actually is off, go on Task Manager to see
+
 ## Available Scripts
 
 In the project directory, you can run:
