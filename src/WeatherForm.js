@@ -20,7 +20,7 @@ export default function WeatherForm() {
             />
           </div>
           <div className="col-3 search-location-area">
-            <button type="search" className="btn btn-primary pull-right">
+            <button type="search" className="btn btn-primary pull-right w-100">
               Search
             </button>
             <button
