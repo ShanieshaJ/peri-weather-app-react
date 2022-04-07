@@ -1,7 +1,6 @@
 .btn-primary {
-  border: 2px double transparent;
+  border: 2px double #dadde1;
   background-image: linear-gradient(0deg, #535357 0%, #b4b9d8 100%);
-  background-origin: border-box;
   left: 1rem;
   text-align: center;
   margin: 1px;
@@ -13,7 +12,8 @@
 
 .WeatherForm {
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
-  border-radius: 10px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
   padding: 20px 16px 24px 16px;
   background: rgb(204, 204, 228);
 }
