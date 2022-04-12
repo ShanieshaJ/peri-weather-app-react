@@ -82,6 +82,7 @@ This is the special restriction added by developers of create-react-app. It is i
 - Fix the search bar
 - Fix the infomation of the temperature
 - Clean code the js/css files
+- Add the API to the weather app
 
 ## Learn More
 
