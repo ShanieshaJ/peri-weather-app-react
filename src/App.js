@@ -7,6 +7,19 @@ export default function App() {
   return (
     <div className="App">
       <WeatherForm />
+      <footer className="source">
+        <small>
+          <a
+            href="https://github.com/ShanieshaJ/peri-weather-app-react"
+            target="_blank"
+            id="projectLink"
+            rel="noreferrer"
+          >
+            Open-source code{" "}
+          </a>
+          by Shaniesha John
+        </small>
+      </footer>
     </div>
   );
 }
