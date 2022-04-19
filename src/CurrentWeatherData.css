@@ -1,37 +1,58 @@
-.units {
-  position: relative;
+.CurrentWeatherData .current-weather-container {
+  margin-bottom: 20px;
+}
+
+ul {
   margin: 0 auto;
-  right: -1.1rem;
-  top: 1.3rem;
+  padding: 0 auto;
 }
 
-.col {
-  padding: 2.5px;
-}
-
-.temperature-dot {
-  position: relative;
-  font-size: 28px;
+li {
   margin: 0 auto;
+  list-style: none;
 }
 
-.weather-humidity-wind-container {
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.current-weather-img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.current-weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.current-weather-temperature .units {
   position: relative;
-  margin: 0 auto;
-  text-align: center;
-  left: 1.5rem;
+  padding: 5px;
+  font-size: 16px;
+  top: -34px;
 }
 
-#current-temperature {
-  font-size: 28px;
+.current-weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.current-weather-temperature .active:hover {
+  color: #dbddf2;
+  text-decoration: none;
 }
 
 #celsius,
 #fahrenheit {
-  color: #27272b;
+  color: rgb(33, 33, 33);
   text-decoration: none;
   position: relative;
-  margin: 0 auto;
-  font-size: 16px;
-  bottom: 1.5rem;
 }
