@@ -15,11 +15,10 @@ export default function CurrentData() {
       <div className="current-data-container">
         <div className="row date-time-location-container">
           <span id="current-city-name">{cityInfo.currentName}</span>
-          <span id="current-date">
-            {cityInfo.currentDay}, {cityInfo.currentDate}{" "}
-            {cityInfo.currentMonth}
+          <span id="current-date-time">
+            Last Updated on: {cityInfo.currentDay}, {cityInfo.currentDate}{" "}
+            {cityInfo.currentMonth} at {cityInfo.currentTime}
           </span>
-          <span id="current-time">{cityInfo.currentTime}</span>
         </div>
       </div>
     </div>
