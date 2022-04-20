@@ -1,6 +1,6 @@
-.btn-primary {
+button.btn.btn-primary.pull-right {
   border: 2px double #dadde1;
-  background-image: linear-gradient(0deg, #535357 0%, #b4b9d8 100%);
+  background-color: #ff8f51;
   left: 1rem;
   text-align: center;
   margin: 1px;
@@ -11,5 +11,5 @@
   border: 1px solid #dadde1;
   border-radius: 5px;
   padding: 20px 16px 24px 16px;
-  background: rgb(204, 204, 228);
+  background: #e6e3f8;
 }
