@@ -13,7 +13,7 @@ export default function App() {
             href="https://github.com/ShanieshaJ/peri-weather-app-react"
             target="_blank"
             id="projectLink"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Open-source code{" "}
           </a>
