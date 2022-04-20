@@ -45,11 +45,6 @@ li:first-letter {
   cursor: default;
 }
 
-.current-weather-temperature .active:hover {
-  color: #dbddf2;
-  text-decoration: none;
-}
-
 #celsius,
 #fahrenheit {
   color: rgb(33, 33, 33);
