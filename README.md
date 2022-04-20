@@ -77,12 +77,11 @@ It cannot be outside of the src folder, or else will display this error message:
 
 This is the special restriction added by developers of create-react-app. It is implemented in `ModuleScopePlugin` to ensure files reside in `src/`. That plugin ensures that relative imports from app's source directory don't reach outside of it.
 
-## Things to do with the project (Starting from April 15-19)
-- Edit the padding/width of the inner container
-- Fix the search bar
-- Fix the infomation of the temperature
+## Things to do with the project (Starting from April 18-25)
+- Fix the infomation of the temperature (In process)
 - Clean code the js/css files
-- Add the API to the weather app
+- Add the API to the weather app (In process)
+- Add how to install FontAwesome icons
 
 ## Learn More
 
