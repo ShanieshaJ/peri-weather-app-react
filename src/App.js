@@ -12,10 +12,19 @@ export default function App() {
           <a
             href="https://github.com/ShanieshaJ/peri-weather-app-react"
             target="_blank"
-            id="projectLink"
+            className="projectLink"
             rel="noopener noreferrer"
           >
-            Open-source code{" "}
+            Open-source code on Github{" "}
+          </a>
+          and hosted on{" "}
+          <a
+            href="https://stalwart-chebakia-f48e45.netlify.app/"
+            target="_blank"
+            className="projectLink"
+            rel="noopener noreferrer"
+          >
+            Netlify{" "}
           </a>
           by Shaniesha John
         </small>
