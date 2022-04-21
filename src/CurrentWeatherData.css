@@ -1,5 +1,6 @@
 .CurrentWeatherData .current-weather-container {
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 ul {
@@ -16,14 +17,10 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-.overview {
-  margin-bottom: 20px;
-}
-
-.current-weather-img {
+.current-weather-temperature img {
+  display: flex;
   margin-right: 5px;
   height: 64px;
-  width: 64px;
 }
 
 .current-weather-temperature strong {
@@ -37,7 +34,7 @@ li:first-letter {
   position: relative;
   padding: 5px;
   font-size: 16px;
-  top: -34px;
+  top: -2px;
 }
 
 .current-weather-temperature .active {
