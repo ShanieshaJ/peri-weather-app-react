@@ -18,9 +18,10 @@ li:first-letter {
 }
 
 .current-weather-temperature img {
-  display: flex;
+  display: inline-block;
   margin-right: 5px;
   height: 64px;
+  vertical-align: text-bottom;
 }
 
 .current-weather-temperature strong {
@@ -34,7 +35,7 @@ li:first-letter {
   position: relative;
   padding: 5px;
   font-size: 16px;
-  top: -2px;
+  top: -34px;
 }
 
 .current-weather-temperature .active {
