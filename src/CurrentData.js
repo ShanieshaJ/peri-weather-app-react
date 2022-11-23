@@ -1,23 +1,15 @@
 import React from "react";
 import "./CurrentData.css";
+import FormatDate from "./FormatDate";
 
-export default function CurrentData() {
-  let cityInfo = {
-    currentName: "Montreal",
-    currentDay: "Wednesday",
-    currentDate: 20,
-    currentMonth: "April",
-    currentTime: "12:30 AM",
-  };
-
+export default function CurrentData(props) {
   return (
     <div className="CurrentData">
       <div className="current-data-container">
         <div className="row date-time-location-container">
-          <span id="current-city-name">{cityInfo.currentName}</span>
+          <span id="current-city-name">{props.data.city}</span>
           <span id="current-date-time">
-            Last Updated on: {cityInfo.currentDay}, {cityInfo.currentDate}{" "}
-            {cityInfo.currentMonth} at {cityInfo.currentTime}
+            <FormatDate date={props.data.date} />
           </span>
         </div>
       </div>

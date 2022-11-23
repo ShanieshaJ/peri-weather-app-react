@@ -6,16 +6,17 @@ import WeatherForm from "./WeatherForm";
 export default function App() {
   return (
     <div className="App">
-      <WeatherForm />
-      <footer className="source">
+      <WeatherForm defaultCity="Laflèche" />
+      <footer className="signature">
         <small>
+          This project is{" "}
           <a
             href="https://github.com/ShanieshaJ/peri-weather-app-react"
             target="_blank"
             className="projectLink"
             rel="noopener noreferrer"
           >
-            Open-source code on Github{" "}
+            open-source code on Github{" "}
           </a>
           and hosted on{" "}
           <a
