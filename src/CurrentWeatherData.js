@@ -1,27 +1,21 @@
 import React from "react";
-
+import WeatherIcons from "./WeatherIcons";
 import "./CurrentWeatherData.css";
 
-export default function CurrentWeatherData() {
-  let currentTemperatureInfo = {
-    currentTemperature: 3,
-    currentDescription: "Cloudy",
-    currentHumidity: 50,
-    currentWindSpeed: 5,
-  };
+export default function CurrentWeatherData(props) {
   return (
     <div className="CurrentWeatherData">
       <div className="row current-weather-container">
         <div className="row">
           <div className="col-6">
             <div className="clearfix current-weather-temperature">
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                alt="clear"
+              <WeatherIcons
+                code={props.data.icon}
+                size={50}
                 id="icon"
                 className="float-left"
-              />
-              <strong>{currentTemperatureInfo.currentTemperature}</strong>
+              />{" "}
+              <strong>{props.data.temperature}</strong>
               <span className="units">
                 <a href="/" id="celsius">
                   °C
@@ -35,9 +29,9 @@ export default function CurrentWeatherData() {
           </div>
           <div className="col-6">
             <ul>
-              <li>Description: {currentTemperatureInfo.currentDescription}</li>
-              <li>Humidity: {currentTemperatureInfo.currentHumidity}%</li>
-              <li>Wind: {currentTemperatureInfo.currentWindSpeed} km/h</li>
+              <li>Description: {props.data.description}</li>
+              <li>Humidity: {props.data.humidity}%</li>
+              <li>Wind: {props.data.wind} km/h</li>
             </ul>
           </div>
         </div>
